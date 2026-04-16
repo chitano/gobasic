@@ -37,6 +37,13 @@ Current structure:
 	|-- rest-api/
 ```
 
+## Docs index
+
+Learning notes available right now:
+
+- [01 - Hello Go Developers](docs/01-hello-go-developers.md)
+- [02 - Variable](docs/02-variable.md)
+
 ## Learning goals
 
 - Build a strong foundation in Go syntax and core features
