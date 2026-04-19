@@ -26,10 +26,17 @@ Current structure:
 |-- docs/
 |   |-- 01-hello-go-developers.md
 |   |-- 02-variable.md
+|   |-- 03-constand.md
+|   |-- bn/
+|       |-- 01-hello-go-developers.md
+|       |-- 02-variable.md
+|       |-- 03-constand.md
 |-- examples/
 |   |-- 01-hello-go-developers/
 |   |   |-- main.go
 |   |-- 02-variable/
+|       |-- main.go
+|   |-- constant/
 |       |-- main.go
 |-- projects/
 	|-- cli-app/
@@ -43,6 +50,13 @@ Learning notes available right now:
 
 - [01 - Hello Go Developers](docs/01-hello-go-developers.md)
 - [02 - Variable](docs/02-variable.md)
+- [03 - Constant](docs/03-constand.md)
+
+## Docs index (Bangla)
+
+- [০১ - Hello Go Developers](docs/bn/01-hello-go-developers.md)
+- [০২ - Variable](docs/bn/02-variable.md)
+- [০৩ - Constant](docs/bn/03-constand.md)
 
 ## Learning goals
 

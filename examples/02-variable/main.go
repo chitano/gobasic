@@ -6,7 +6,7 @@ func main() {
 	var name string = "Chitano Kumar" //Explicitly define type.
 	fmt.Println("My name is", name)
 
-	age := 34 //Auto detected type or type inferance featrue in Golang
+	age := 34 //Auto detected type or type inferance in Golang
 
 	fmt.Println("My age is", age)
 
