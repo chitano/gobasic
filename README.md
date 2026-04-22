@@ -27,16 +27,24 @@ Current structure:
 |   |-- 01-hello-go-developers.md
 |   |-- 02-variable.md
 |   |-- 03-constand.md
+|   |-- 04-fmt-package.md
+|   |-- 07-custome-data-type.md
 |   |-- bn/
 |       |-- 01-hello-go-developers.md
 |       |-- 02-variable.md
 |       |-- 03-constand.md
+|       |-- 04-fmt-package.md
+|       |-- 07-custome-data-type.md
 |-- examples/
 |   |-- 01-hello-go-developers/
 |   |   |-- main.go
 |   |-- 02-variable/
-|       |-- main.go
-|   |-- constant/
+|   |   |-- main.go
+|   |-- 03-constant/
+|   |   |-- main.go
+|   |-- 04-fmt-package/
+|   |   |-- main.go
+|   |-- 07-custome-data-type/
 |       |-- main.go
 |-- projects/
 	|-- cli-app/
@@ -51,12 +59,16 @@ Learning notes available right now:
 - [01 - Hello Go Developers](docs/01-hello-go-developers.md)
 - [02 - Variable](docs/02-variable.md)
 - [03 - Constant](docs/03-constand.md)
+- [04 - The fmt Package](docs/04-fmt-package.md)
+- [07 - Custom Data Types](docs/07-custome-data-type.md)
 
 ## Docs index (Bangla)
 
 - [০১ - Hello Go Developers](docs/bn/01-hello-go-developers.md)
 - [০২ - Variable](docs/bn/02-variable.md)
 - [০৩ - Constant](docs/bn/03-constand.md)
+- [০৪ - fmt প্যাকেজ](docs/bn/04-fmt-package.md)
+- [০৭ - Custom Data Type](docs/bn/07-custome-data-type.md)
 
 ## Learning goals
 
