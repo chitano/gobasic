@@ -29,12 +29,16 @@ Current structure:
 |   |-- 03-constand.md
 |   |-- 04-fmt-package.md
 |   |-- 07-custome-data-type.md
+|   |-- cli-app-fmt-pkg.md
+|   |-- cli-app-todolist.md
 |   |-- bn/
 |       |-- 01-hello-go-developers.md
 |       |-- 02-variable.md
 |       |-- 03-constand.md
 |       |-- 04-fmt-package.md
 |       |-- 07-custome-data-type.md
+|       |-- cli-app-fmt-pkg.md
+|       |-- cli-app-todolist.md
 |-- examples/
 |   |-- 01-hello-go-developers/
 |   |   |-- main.go
@@ -47,9 +51,15 @@ Current structure:
 |   |-- 07-custome-data-type/
 |       |-- main.go
 |-- projects/
-	|-- cli-app/
-	|-- grpc/
-	|-- rest-api/
+|   |-- cli-app/
+|   |   |-- fmt-pkg/
+|   |   |   |-- go.mod
+|   |   |   |-- main.go
+|   |   |-- todolist/
+|   |   |   |-- main.go
+|   |   |   |-- tasks.json
+|   |-- grpc/
+|   |-- rest-api/
 ```
 
 ## Docs index
@@ -61,6 +71,8 @@ Learning notes available right now:
 - [03 - Constant](docs/03-constand.md)
 - [04 - The fmt Package](docs/04-fmt-package.md)
 - [07 - Custom Data Types](docs/07-custome-data-type.md)
+- [Project - CLI App with fmt Package](docs/cli-app-fmt-pkg.md)
+- [Project - Todo List CLI](docs/cli-app-todolist.md)
 
 ## Docs index (Bangla)
 
@@ -69,6 +81,29 @@ Learning notes available right now:
 - [০৩ - Constant](docs/bn/03-constand.md)
 - [০৪ - fmt প্যাকেজ](docs/bn/04-fmt-package.md)
 - [০৭ - Custom Data Type](docs/bn/07-custome-data-type.md)
+- [প্রজেক্ট - fmt প্যাকেজ দিয়ে CLI অ্যাপ](docs/bn/cli-app-fmt-pkg.md)
+- [প্রজেক্ট - Todo List CLI](docs/bn/cli-app-todolist.md)
+
+## Projects
+
+Run commands for the current CLI projects:
+
+### fmt-pkg
+
+```bash
+cd projects/cli-app/fmt-pkg
+go run main.go
+```
+
+### todolist
+
+```bash
+cd projects/cli-app/todolist
+go run main.go list
+go run main.go add "Learn Go"
+go run main.go done 1
+go run main.go delete 1
+```
 
 ## Learning goals
 
